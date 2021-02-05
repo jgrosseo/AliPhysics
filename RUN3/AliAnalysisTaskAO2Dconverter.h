@@ -49,7 +49,9 @@ public:
   enum TreeIndex { // Index of the output trees
     kEvents = 0,
     kEventsExtra,
-    kTracks,
+    kTracksPar,
+    kTracksCov,
+    kTracksExtra,
     kCalo,
     kCaloTrigger,
     kMuon,
